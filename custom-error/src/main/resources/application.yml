@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: dev
   security:
     oauth2:
       client:
@@ -10,6 +12,6 @@ spring:
             client-id: your-google-client-id
             client-secret: your-google-client-secret
 
-# logging:
+#logging:
 #  level:
 #    org.springframework.security: DEBUG
